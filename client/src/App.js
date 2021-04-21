@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import HoverRating from "./components/Starrating/HoverRating";
 /*import Slideshow from "./components/Slideshow/Slideshow";*/
 import "./App.css";
 
@@ -34,7 +35,7 @@ function App() {
         <Route path="/about" component={About} /> */}
         <Header/>
 
-
+        <HoverRating/>
         
         
 
